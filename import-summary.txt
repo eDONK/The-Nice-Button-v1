@@ -1,0 +1,95 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\edonk\AndroidStudioProjects\The Nice Button
+                                        -    -      
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\_name
+* .idea\codeStyleSettings.xml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* The Nice Button.iml
+* _classpath
+* _project
+* default.properties
+* out\
+* out\production\
+* out\production\The Nice Button\
+* out\production\The Nice Button\The Nice Button.apk
+* out\production\The Nice Button\The Nice Button.unaligned.apk
+* out\production\The Nice Button\the\
+* out\production\The Nice Button\the\nice\
+* out\production\The Nice Button\the\nice\button\
+* out\production\The Nice Button\the\nice\button\AboutScreen.class
+* out\production\The Nice Button\the\nice\button\BuildConfig.class
+* out\production\The Nice Button\the\nice\button\PreferencesScreen$1.class
+* out\production\The Nice Button\the\nice\button\PreferencesScreen.class
+* out\production\The Nice Button\the\nice\button\R$attr.class
+* out\production\The Nice Button\the\nice\button\R$drawable.class
+* out\production\The Nice Button\the\nice\button\R$id.class
+* out\production\The Nice Button\the\nice\button\R$layout.class
+* out\production\The Nice Button\the\nice\button\R$menu.class
+* out\production\The Nice Button\the\nice\button\R$raw.class
+* out\production\The Nice Button\the\nice\button\R$string.class
+* out\production\The Nice Button\the\nice\button\R$style.class
+* out\production\The Nice Button\the\nice\button\R.class
+* out\production\The Nice Button\the\nice\button\Random$1$1.class
+* out\production\The Nice Button\the\nice\button\Random$1.class
+* out\production\The Nice Button\the\nice\button\Random.class
+* out\production\The Nice Button\the\nice\button\SeparateButtons$1$1.class
+* out\production\The Nice Button\the\nice\button\SeparateButtons$1.class
+* out\production\The Nice Button\the\nice\button\SeparateButtons$2$1.class
+* out\production\The Nice Button\the\nice\button\SeparateButtons$2.class
+* out\production\The Nice Button\the\nice\button\SeparateButtons$3$1.class
+* out\production\The Nice Button\the\nice\button\SeparateButtons$3.class
+* out\production\The Nice Button\the\nice\button\SeparateButtons.class
+* out\production\The Nice Button\the\nice\button\nice$1$1.class
+* out\production\The Nice Button\the\nice\button\nice$1.class
+* out\production\The Nice Button\the\nice\button\nice.class
+* proguard.cfg.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

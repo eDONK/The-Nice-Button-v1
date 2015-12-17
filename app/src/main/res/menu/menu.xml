@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/about"
+  		android:title="About"
+  		android:icon="@drawable/about_button" />
+  <item android:id="@+id/separate"
+  		android:title="Separate"
+  		android:icon="@drawable/separate_button" />
+</menu>

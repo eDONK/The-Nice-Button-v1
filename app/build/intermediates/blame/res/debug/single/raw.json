@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\edonk\\AndroidStudioProjects\\The Nice Button\\app\\build\\intermediates\\res\\merged\\debug\\raw\\nice1.mp3",
+        "source": "C:\\Users\\edonk\\AndroidStudioProjects\\The Nice Button\\app\\src\\main\\res\\raw\\nice1.mp3"
+    },
+    {
+        "merged": "C:\\Users\\edonk\\AndroidStudioProjects\\The Nice Button\\app\\build\\intermediates\\res\\merged\\debug\\raw\\nice2.mp3",
+        "source": "C:\\Users\\edonk\\AndroidStudioProjects\\The Nice Button\\app\\src\\main\\res\\raw\\nice2.mp3"
+    },
+    {
+        "merged": "C:\\Users\\edonk\\AndroidStudioProjects\\The Nice Button\\app\\build\\intermediates\\res\\merged\\debug\\raw\\nice3.mp3",
+        "source": "C:\\Users\\edonk\\AndroidStudioProjects\\The Nice Button\\app\\src\\main\\res\\raw\\nice3.mp3"
+    }
+]
